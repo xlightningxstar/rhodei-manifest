@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-
     <!-- Device trees -->
+    <project name="xlightningxstar/android_device_motorola_sm4350-common" 
+             path="device/motorola/4350-common" 
+             remote="github" 
+             revision="14" />
 
     <project name="xlightningxstar/android_device_motorola_rhodei" 
-
              path="device/motorola/rhodei" 
-
              remote="github" 
-
              revision="14" />
-
-
 
     <!-- Vendor trees -->
-
-    <project name="xlightningxstar/android_vendor_rhodei_gta4l-common" 
-
+    <project name="xlightningxstar/android_vendor_motorola_rhodei" 
              path="vendor/motorola/rhodei" 
-
              remote="github" 
-
              revision="14" />
-
-
 
     <!-- Kernel sources -->
-
     <project name="xlightningxstar/android_kernel_motorola_rhodei" 
-
              path="kernel/motorola/rhodei" 
-
              remote="github" 
-
              revision="14" />
-
-
-
 </manifest>
